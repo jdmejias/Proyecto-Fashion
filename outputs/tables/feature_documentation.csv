@@ -1,0 +1,104 @@
+Nombre,Familia,Descripción
+intensity_mean,Intensidad,Media de intensidad de todos los píxeles
+intensity_std,Intensidad,Desviación estándar de intensidad
+intensity_min,Intensidad,Valor mínimo de intensidad
+intensity_max,Intensidad,Valor máximo de intensidad
+intensity_median,Intensidad,Mediana de intensidad
+intensity_p25,Intensidad,Percentil 25 de intensidad
+intensity_p75,Intensidad,Percentil 75 de intensidad
+intensity_range,Intensidad,Rango de intensidad (max - min)
+brightness,Intensidad,Brillo promedio de la imagen
+contrast,Intensidad,Contraste (desviación estándar de intensidad)
+entropy,Intensidad,Entropía de Shannon de la distribución de intensidad
+dark_pixel_ratio,Intensidad,Proporción de píxeles oscuros (< 0.3)
+bright_pixel_ratio,Intensidad,Proporción de píxeles claros (> 0.7)
+histogram_bin_0,Intensidad,Bin 0 del histograma de intensidad (16 bins)
+histogram_bin_1,Intensidad,Bin 1 del histograma de intensidad (16 bins)
+histogram_bin_2,Intensidad,Bin 2 del histograma de intensidad (16 bins)
+histogram_bin_3,Intensidad,Bin 3 del histograma de intensidad (16 bins)
+histogram_bin_4,Intensidad,Bin 4 del histograma de intensidad (16 bins)
+histogram_bin_5,Intensidad,Bin 5 del histograma de intensidad (16 bins)
+histogram_bin_6,Intensidad,Bin 6 del histograma de intensidad (16 bins)
+histogram_bin_7,Intensidad,Bin 7 del histograma de intensidad (16 bins)
+histogram_bin_8,Intensidad,Bin 8 del histograma de intensidad (16 bins)
+histogram_bin_9,Intensidad,Bin 9 del histograma de intensidad (16 bins)
+histogram_bin_10,Intensidad,Bin 10 del histograma de intensidad (16 bins)
+histogram_bin_11,Intensidad,Bin 11 del histograma de intensidad (16 bins)
+histogram_bin_12,Intensidad,Bin 12 del histograma de intensidad (16 bins)
+histogram_bin_13,Intensidad,Bin 13 del histograma de intensidad (16 bins)
+histogram_bin_14,Intensidad,Bin 14 del histograma de intensidad (16 bins)
+histogram_bin_15,Intensidad,Bin 15 del histograma de intensidad (16 bins)
+zone_mean_0_0,Intensidad,"Media de intensidad en zona (0,0) de cuadrícula 4x4"
+zone_mean_0_1,Intensidad,"Media de intensidad en zona (0,1) de cuadrícula 4x4"
+zone_mean_0_2,Intensidad,"Media de intensidad en zona (0,2) de cuadrícula 4x4"
+zone_mean_0_3,Intensidad,"Media de intensidad en zona (0,3) de cuadrícula 4x4"
+zone_mean_1_0,Intensidad,"Media de intensidad en zona (1,0) de cuadrícula 4x4"
+zone_mean_1_1,Intensidad,"Media de intensidad en zona (1,1) de cuadrícula 4x4"
+zone_mean_1_2,Intensidad,"Media de intensidad en zona (1,2) de cuadrícula 4x4"
+zone_mean_1_3,Intensidad,"Media de intensidad en zona (1,3) de cuadrícula 4x4"
+zone_mean_2_0,Intensidad,"Media de intensidad en zona (2,0) de cuadrícula 4x4"
+zone_mean_2_1,Intensidad,"Media de intensidad en zona (2,1) de cuadrícula 4x4"
+zone_mean_2_2,Intensidad,"Media de intensidad en zona (2,2) de cuadrícula 4x4"
+zone_mean_2_3,Intensidad,"Media de intensidad en zona (2,3) de cuadrícula 4x4"
+zone_mean_3_0,Intensidad,"Media de intensidad en zona (3,0) de cuadrícula 4x4"
+zone_mean_3_1,Intensidad,"Media de intensidad en zona (3,1) de cuadrícula 4x4"
+zone_mean_3_2,Intensidad,"Media de intensidad en zona (3,2) de cuadrícula 4x4"
+zone_mean_3_3,Intensidad,"Media de intensidad en zona (3,3) de cuadrícula 4x4"
+object_area,Forma,Área del objeto segmentado (píxeles de primer plano)
+object_area_ratio,Forma,Proporción del área del objeto respecto al total
+perimeter,Forma,Perímetro aproximado del objeto (píxeles de borde)
+bbox_x,Forma,Coordenada X del bounding box
+bbox_y,Forma,Coordenada Y del bounding box
+bbox_width,Forma,Ancho del bounding box
+bbox_height,Forma,Alto del bounding box
+aspect_ratio,Forma,Relación alto/ancho del bounding box
+extent,Forma,Extensión: área del objeto / área del bounding box
+centroid_x,Forma,Coordenada X del centroide del objeto
+centroid_y,Forma,Coordenada Y del centroide del objeto
+hu_moment_0,Forma,Momento de Hu #1 (invariante a transformaciones)
+hu_moment_1,Forma,Momento de Hu #2 (invariante a transformaciones)
+hu_moment_2,Forma,Momento de Hu #3 (invariante a transformaciones)
+hu_moment_3,Forma,Momento de Hu #4 (invariante a transformaciones)
+hu_moment_4,Forma,Momento de Hu #5 (invariante a transformaciones)
+hu_moment_5,Forma,Momento de Hu #6 (invariante a transformaciones)
+hu_moment_6,Forma,Momento de Hu #7 (invariante a transformaciones)
+canny_edge_density,Bordes,Densidad de bordes Canny (proporción de píxeles de borde)
+n_edge_pixels,Bordes,Número total de píxeles de borde Canny
+edge_zone_0_0,Bordes,"Densidad de bordes en zona (0,0) de cuadrícula 4x4"
+edge_zone_0_1,Bordes,"Densidad de bordes en zona (0,1) de cuadrícula 4x4"
+edge_zone_0_2,Bordes,"Densidad de bordes en zona (0,2) de cuadrícula 4x4"
+edge_zone_0_3,Bordes,"Densidad de bordes en zona (0,3) de cuadrícula 4x4"
+edge_zone_1_0,Bordes,"Densidad de bordes en zona (1,0) de cuadrícula 4x4"
+edge_zone_1_1,Bordes,"Densidad de bordes en zona (1,1) de cuadrícula 4x4"
+edge_zone_1_2,Bordes,"Densidad de bordes en zona (1,2) de cuadrícula 4x4"
+edge_zone_1_3,Bordes,"Densidad de bordes en zona (1,3) de cuadrícula 4x4"
+edge_zone_2_0,Bordes,"Densidad de bordes en zona (2,0) de cuadrícula 4x4"
+edge_zone_2_1,Bordes,"Densidad de bordes en zona (2,1) de cuadrícula 4x4"
+edge_zone_2_2,Bordes,"Densidad de bordes en zona (2,2) de cuadrícula 4x4"
+edge_zone_2_3,Bordes,"Densidad de bordes en zona (2,3) de cuadrícula 4x4"
+edge_zone_3_0,Bordes,"Densidad de bordes en zona (3,0) de cuadrícula 4x4"
+edge_zone_3_1,Bordes,"Densidad de bordes en zona (3,1) de cuadrícula 4x4"
+edge_zone_3_2,Bordes,"Densidad de bordes en zona (3,2) de cuadrícula 4x4"
+edge_zone_3_3,Bordes,"Densidad de bordes en zona (3,3) de cuadrícula 4x4"
+lbp_hist_0,Textura,Bin 0 del histograma LBP (Local Binary Pattern)
+lbp_hist_1,Textura,Bin 1 del histograma LBP (Local Binary Pattern)
+lbp_hist_2,Textura,Bin 2 del histograma LBP (Local Binary Pattern)
+lbp_hist_3,Textura,Bin 3 del histograma LBP (Local Binary Pattern)
+lbp_hist_4,Textura,Bin 4 del histograma LBP (Local Binary Pattern)
+lbp_hist_5,Textura,Bin 5 del histograma LBP (Local Binary Pattern)
+lbp_hist_6,Textura,Bin 6 del histograma LBP (Local Binary Pattern)
+lbp_hist_7,Textura,Bin 7 del histograma LBP (Local Binary Pattern)
+lbp_hist_8,Textura,Bin 8 del histograma LBP (Local Binary Pattern)
+lbp_hist_9,Textura,Bin 9 del histograma LBP (Local Binary Pattern)
+glcm_contrast,Textura,Contraste GLCM (diferencia de niveles de gris entre vecinos)
+glcm_homogeneity,Textura,Homogeneidad GLCM (cercanía a la diagonal)
+glcm_energy,Textura,Energía GLCM (uniformidad de la textura)
+glcm_correlation,Textura,Correlación GLCM (dependencia lineal entre niveles de gris)
+glcm_dissimilarity,Textura,Disimilitud GLCM (diferencia promedio entre píxeles vecinos)
+glcm_ASM,Textura,ASM GLCM (Angular Second Moment - uniformidad)
+hog_mean,Textura,Media del descriptor HOG
+hog_std,Textura,Desviación estándar del descriptor HOG
+hog_max,Textura,Máximo del descriptor HOG
+hog_min,Textura,Mínimo del descriptor HOG
+hog_median,Textura,Mediana del descriptor HOG
+texture_entropy,Textura,Entropía de Shannon de la imagen (complejidad textural)
