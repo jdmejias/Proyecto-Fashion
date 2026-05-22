@@ -1,0 +1,5 @@
+Modelo,Mejores_hiperparámetros
+Logistic Regression,"{'classifier__C': 1, 'classifier__penalty': 'l2'}"
+SVM RBF,"{'classifier__C': 10, 'classifier__gamma': 'scale'}"
+KNN,"{'classifier__metric': 'manhattan', 'classifier__n_neighbors': 7, 'classifier__weights': 'distance'}"
+Random Forest,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 100}"
