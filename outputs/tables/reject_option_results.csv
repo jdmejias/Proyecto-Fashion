@@ -1,0 +1,6 @@
+Umbral,N_aceptadas,N_rechazadas,Tasa_rechazo,Accuracy_original,Accuracy_aceptadas,Mejora_accuracy,Errores_evitados,Errores_originales,Clase_más_rechazada
+0.5,4825,175,0.035,0.8886,0.9051,0.0165,99,557,Shirt
+0.6,4521,479,0.0958,0.8886,0.9312,0.0426,246,557,T-shirt/top
+0.7,4243,757,0.1514,0.8886,0.9486,0.06,339,557,T-shirt/top
+0.8,3891,1109,0.2218,0.8886,0.9648,0.0762,420,557,T-shirt/top
+0.9,3313,1687,0.3374,0.8886,0.9813,0.0927,495,557,Shirt

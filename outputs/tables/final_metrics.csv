@@ -1,0 +1,6 @@
+Modelo,Accuracy,F1_macro,F1_weighted,Precision_macro,Recall_macro,Tiempo_train (s)
+SVM RBF (optimizado),0.8886,0.8887,0.8887,0.8891,0.8886,25.831
+SVM RBF,0.8756,0.8756,0.8756,0.8769,0.8756,7.09
+Random Forest,0.8754,0.8752,0.8752,0.8762,0.8754,0.688
+Random Forest (optimizado),0.8754,0.8752,0.8752,0.8762,0.8754,0.848
+SVM RBF,0.8686,0.8685,0.8685,0.87,0.8686,52.635
