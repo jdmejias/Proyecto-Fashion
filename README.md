@@ -1,14 +1,12 @@
-# 🎓 Proyecto Final - Clasificación de Imágenes Fashion-MNIST con Machine Learning Clásico
+#  Proyecto Final - Clasificación de Imágenes Fashion-MNIST con Machine Learning Clásico
 
-## 📋 Descripción del Proyecto
+##  Descripción del Proyecto
 
 Este proyecto implementa un **sistema completo de clasificación de imágenes** del dataset Fashion-MNIST, utilizando exclusivamente **Machine Learning clásico** y **extracción manual de características visuales**. El pipeline transforma imágenes 28×28 en escala de grises en un dataset tabular de características numéricas, sobre el cual se entrenan y comparan múltiples modelos de clasificación.
 
-> ⚠️ **IMPORTANTE**: Este proyecto **NO** utiliza Deep Learning, Redes Neuronales Convolucionales (CNN), TensorFlow ni PyTorch para el entrenamiento de modelos. El enfoque es puramente de Machine Learning clásico con ingeniería de características.
-
 ---
 
-## 🎯 Objetivo
+## Objetivo Principal
 
 Construir un sistema completo de clasificación de imágenes de principio a fin, que incluya:
 
@@ -23,7 +21,7 @@ Construir un sistema completo de clasificación de imágenes de principio a fin,
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 ### Fashion-MNIST
 - **Fuente**: [Zalando Research](https://github.com/zalandoresearch/fashion-mnist)
@@ -33,7 +31,7 @@ Construir un sistema completo de clasificación de imágenes de principio a fin,
 
 ### Clases Seleccionadas
 
-Para este proyecto se seleccionaron **5 clases representativas** del total de 10:
+Para nuestro proyecto seleccionaremos **5 clases representativas** de 10:
 
 | ID | Clase | Justificación |
 |----|-------|--------------|
@@ -51,13 +49,13 @@ Para este proyecto se seleccionaron **5 clases representativas** del total de 10
 
 ---
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 fashion-mnist/
-├── 📓 notebooks/
+├──  notebooks/
 │   └── ProyectoFinal_FashionMNIST.ipynb    # Notebook principal
-├── 📦 src/
+├──  src/
 │   ├── __init__.py                          # Inicialización del paquete
 │   ├── data_loader.py                       # Carga y filtrado del dataset
 │   ├── eda.py                               # Análisis Exploratorio de Datos
@@ -67,24 +65,21 @@ fashion-mnist/
 │   ├── evaluation.py                        # Evaluación y métricas
 │   ├── reject_option.py                     # Opción de rechazo
 │   └── utils.py                             # Utilidades generales
-├── 📊 outputs/
+├──  outputs/
 │   ├── figures/                             # Gráficas generadas
 │   ├── tables/                              # Tablas comparativas (CSV)
 │   └── models/                              # Modelos guardados (joblib)
-├── 💾 data/
+├──  data/
 │   ├── fashion/                             # Dataset original (.gz)
 │   └── processed/                           # Dataset tabular (CSV)
-├── 📄 requirements.txt                      # Dependencias
-└── 📄 README.md                             # Este archivo
+├──  requirements.txt                      # Dependencias
+└──  README.md                             # Este archivo
 ```
 
 ---
 
-## ⚙️ Requisitos e Instalación
+##  Requisitos e Instalación
 
-### Requisitos previos
-- Python 3.8+
-- pip
 
 ### Instalación
 
@@ -108,7 +103,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Cómo Ejecutar
+##  Cómo Ejecutar
 
 ### Ejecución Local
 
@@ -120,18 +115,8 @@ jupyter notebook notebooks/ProyectoFinal_FashionMNIST.ipynb
 jupyter lab notebooks/ProyectoFinal_FashionMNIST.ipynb
 ```
 
-### Ejecución en Google Colab
 
-1. Subir el proyecto completo a Google Drive
-2. Abrir el notebook en Colab
-3. Montar Google Drive
-4. Ejecutar las celdas en orden
-
-El notebook detecta automáticamente si se ejecuta en Colab y ajusta las rutas.
-
----
-
-## 🔄 Pipeline del Proyecto
+##  Pipeline del Proyecto
 
 1. **Carga del Dataset** → Leer archivos IDX comprimidos de Fashion-MNIST
 2. **Filtrado de Clases** → Seleccionar las 5 clases representativas
@@ -147,7 +132,7 @@ El notebook detecta automáticamente si se ejecuta en Colab y ajusta las rutas.
 
 ---
 
-## 📈 Modelos Implementados
+## Modelos Implementados
 
 | # | Modelo | Tipo |
 |---|--------|------|
@@ -163,7 +148,7 @@ El notebook detecta automáticamente si se ejecuta en Colab y ajusta las rutas.
 
 ---
 
-## 📊 Resultados Principales
+##  Resultados Principales
 
 Los resultados detallados se encuentran en el notebook y en los archivos:
 - `outputs/tables/model_comparison.csv` - Comparación de todos los modelos
@@ -171,29 +156,5 @@ Los resultados detallados se encuentran en el notebook y en los archivos:
 - `outputs/tables/reject_option_results.csv` - Resultados de opción de rechazo
 - `outputs/figures/` - Todas las gráficas generadas
 
----
 
-## ⚠️ Advertencia
 
-Este proyecto utiliza exclusivamente **Machine Learning clásico** con extracción manual/ingenieril de características visuales. **NO** se emplean:
-
-- ❌ Redes Neuronales Convolucionales (CNN)
-- ❌ Deep Learning
-- ❌ TensorFlow / PyTorch / Keras
-- ❌ Transfer Learning
-- ❌ Aprendizaje de representaciones automático
-
-El objetivo pedagógico es demostrar que se puede construir un sistema de clasificación de imágenes competitivo usando técnicas clásicas de procesamiento de imágenes y Machine Learning.
-
----
-
-## 👤 Autor
-
-Proyecto Final - Aprendizaje de Máquina y Análisis de Datos
-
----
-
-## 📄 Licencia
-
-Este proyecto utiliza el dataset Fashion-MNIST bajo licencia MIT.
-Código del proyecto: Uso educativo.
